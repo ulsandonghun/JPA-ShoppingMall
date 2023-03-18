@@ -57,5 +57,6 @@ public class MemberApiController {
     @Data
     public static class CreateMemberRequest {
         private String name;
+        int a;
     }
 }
